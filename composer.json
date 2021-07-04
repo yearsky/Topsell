@@ -1,0 +1,30 @@
+{
+	"description" : "The CodeIgniter Application with Composer",
+	"require": {
+		"php": ">=5.3.9",
+		"codeigniter/framework": "*",
+		"philo/laravel-blade": "3.1",
+		"usmanhalalit/pixie": "1.*@dev",
+		"nesbot/carbon": "~1.18",
+		"vlucas/valitron": "^1.2",
+		"vlucas/phpdotenv": "2.2.*",
+		"phpmailer/phpmailer": "5.2.14",
+		"illuminate/database": "^5.2",
+		"illuminate/events": "5.2",
+		"codeguy/upload": "*",
+		"php-curl-class/php-curl-class": "^4.11",
+		"defuse/php-encryption" : "2.0.3",
+		"gregwar/image": "2.*"
+	},
+	"autoload": {
+        "classmap": [
+            "application/core",
+            "application/models",
+            "application/libraries"
+        ]
+    },
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+        "phpunit/phpunit": "~4.0"
+	}
+}
